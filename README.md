@@ -1,36 +1,39 @@
-# calculator-de-polinoame
+# Polynomial Calculator
 
-  Acest proiect este o aplicație Java care implementează un calculator de polinoame cu o interfață grafică simplă și intuitivă. Utilizatorul poate introduce două polinoame și poate efectua diferite operații matematice asupra acestora, precum:
-Adunare
-Scădere
-Înmulțire
-Împărțire (cu verificare pentru cazurile speciale)
-Derivare
-Integrare
-Rezultatul operațiilor este afișat instant în interfață.
+This project is a Java application that implements a polynomial calculator with a simple and intuitive user interface. The user can enter two polynomials and perform various mathematical operations on them, such as:
 
-Funcționalități principale
+* Addition
+* Subtraction
+* Multiplication
+* Division (with checks for special cases)
+* Differentiation
+* Integration
 
-Introducerea polinoamelor în format matematic (ex: 2x^3 + 4x - 5)
-Butoane dedicate pentru fiecare operație matematică
-Interfață intuitivă și ușor de utilizat
-Verificare automată pentru cazuri speciale (ex: împărțire la zero)
-Implementare modulară cu structuri de date eficiente
-Teste unitare pentru validarea funcționalităților principale
+The result of the operations is displayed instantly in the interface.
 
-Structura proiectului
+## Main Features
 
-src/
-Polinom.java – Clasa pentru reprezentarea unui polinom
-Operatii.java – Implementarea operațiilor matematice cu polinoame
-Controler.java – Gestionarea logicii aplicației
-Vedere.java – Interfața grafică a calculatorului
-Main.java – Punctul de intrare în aplicație
+* **Mathematical input format:** Enter polynomials easily (e.g., `2x^3 + 4x - 5`).
+* **Dedicated buttons:** Separate buttons for each mathematical operation.
+* **Intuitive interface:** Simple and easy to use.
+* **Automatic checks:** Handles special cases like division by zero.
+* **Modular implementation:** Built using efficient data structures.
+* **Unit tests:** Includes tests to validate the main functions.
 
-test/
-Teste unitare pentru verificarea funcționalităților
+## Project Structure
 
-Îmbunătățiri viitoare
-O interfață grafică mai atractivă
-O verificare mai robustă a inputului utilizatorului
-Suport pentru operații mai complexe cu polinoame
+**src/**
+* `Polinom.java` – Class for representing a polynomial.
+* `Operatii.java` – Implementation of the mathematical operations.
+* `Controler.java` – Manages the application logic.
+* `Vedere.java` – The graphical user interface (GUI).
+* `Main.java` – The entry point of the application.
+
+**test/**
+* Unit tests to verify functionality.
+
+## Future Improvements
+
+* A more attractive user interface.
+* More robust validation of user input.
+* Support for more complex polynomial operations.
